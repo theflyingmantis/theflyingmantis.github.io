@@ -1,28 +1,65 @@
-# Project Pages
+## Voyager
 
-Project Pages is Jekyll Template specifically geared towards collaborative science. For more information, click [here](https://github.com/projectpages/project-pages/wiki/).
+Just another jekyll theme. Demo: <http://redvi.github.io/voyager>
 
-# Nav Bar Jumbles
+### Feathures:
 
-If you have seemingly random pages popping up on your Nav Bar recently, this is due to the fact that GitHub/Jekyll changed a fundemental rule they used to render pages. 
+All HTML files are compressed (see `_layouts/compress.html`).
 
-## CAUSE:
-It used to be that if a markdown file didn't have `---` frontmatter at the beginning, it wasn't rendered as a page. This was changed very recently (like in the last 2 days) so that every markdown file anywhere no matter what gets rendered as a page.  
+**Post**
 
-## FIX:
+All post settings can be changed. Example:
 
-1) Go to:
+```
+---
+layout: post
+bg: '2016/background.jpg'
+title: "Post Heading"
+crawlertitle: "page title"
+summary: "post description"
+date: 2016-06-29
+tags : ['front-end']
+slug: post-url
+author: "Author"
+categories: posts
+---
+```
 
-`project-pages/plugin/projector/` or `yourreponame/plugin/projector/` and delete the `README.md` file. This can be done graphically for the non-Git-savvy by simply going to your:
+`bg` is a path to background of your article. By default backgrounds are placed in the `assets/images` directory.
 
-GitHub account -> Your Profile -> Repositories -> Project-Pages/Your Repo -> Plugin -> projector 
+**Page**
 
-and clicking on the files, then clicking on the "thrash can / delete this file" icon on the top right corner of the file.
+If page contains `active` tag, it will be show on site menu.
 
-2) Go to:
+```
+---
+layout: page
+title: "About"
+permalink: /about/
+active: about
+---
+```
 
-`project-pages/css/theme/` or `yourreponame/css/theme/` and delete the `README.md` file. This can be done graphically for the non-Git-savvy by simply going to your:
+**Archive**
 
-GitHub account -> Your Profile -> Repositories -> Project-Pages/Your Repo -> Plugin -> projector 
+Archive page is sorting posts by tags. No more than one tag in one post.
 
-and clicking on the files, then clicking on the "thrash can / delete this file" icon on the top right corner of the file.
+Good:
+
+```
+tags : ['front-end']
+```
+
+Bad:
+
+```
+tags : ['front-end', 'jekyll']
+```
+
+Don't forget to change `_config.yml`.
+
+## Production environment
+
+Build for production:
+
+`JEKYLL_ENV=production jekyll build`
