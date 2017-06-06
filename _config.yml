@@ -6,6 +6,7 @@ description: A Swiss knife!
 logo: site-logo.png
 search: true
 url: https:theflyingmantis.github.io
+baseurl: https://theflyingmantis.github.io
 
 # Jekyll configuration
 
