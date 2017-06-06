@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Site Title
+title: Abhinav Rai
 locale: en_US
-description: Describe your website here.
+description: A Swiss knife!
 logo: site-logo.png
 search: true
 url: https://theflyingmantis.github.io
@@ -36,9 +36,9 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  email: you@email.com
+  name: Abhinav Rai
+  avatar: site-logo.png
+  email: rai.1@iitj.ac.in
   disqus-shortname:
   twitter: #username
   facebook: #username
