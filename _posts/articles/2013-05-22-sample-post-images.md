@@ -24,14 +24,14 @@ Here are some examples of what a post with images might look like. If you want t
 
 Apply the `half` class like so to display two images side by side that share the same caption.
 
-```html
+<!-- ```html -->
 <figure class="half">
-	<img src="/images/image-filename-1.jpg" alt="image">
-	<img src="/images/image-filename-2.jpg" alt="image">
+	<img src="/images/1.png" alt="image">
+	<img src="/images/3.png" alt="image">
 	<figcaption>Caption describing these two images.</figcaption>
 </figure>
-```
-
+<!-- ```
+ -->
 And you'll get something that looks like this:
 
 <figure class="half">
