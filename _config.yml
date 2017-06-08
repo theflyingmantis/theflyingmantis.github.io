@@ -5,10 +5,10 @@ locale: en_US
 description: A Swiss knife!
 logo: site-logo.png
 search: true
-# url: https://theflyingmantis.github.io
-# baseurl: /theflyingmantis.github.io
-url: http://127.0.0.1:4000
-baseurl: /
+url: https://theflyingmantis.github.io
+baseurl: /theflyingmantis.github.io
+# url: http://127.0.0.1:4000
+# baseurl: /
 
 # Jekyll configuration
 
