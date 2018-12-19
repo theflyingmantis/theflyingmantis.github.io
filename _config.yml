@@ -1,6 +1,6 @@
 # main text of home
 name: Abhinav Rai
-bio: Traveler | Entrepreneur | Writer | Coder | Guitarist<br><br>Hey! I am Abhi. I am presently working as a product engineer at Go-Jek. I work with the "ABC" team there implementing "something awesome!" 
+bio: Developer | Traveler | Entrepreneur | Writer | Guitarist<br><br>Hey! I am Abhi. I am presently working as a product engineer at Go-Jek. I play guitar, travel and write in my free time. Love talking about new ideas, life and philosophies.<br><br><i> Hit me up with a hello, cause life happens in random conversations!</i>" 
 
 # twitter summary info
 description: A blog about technology and philosophies
@@ -72,8 +72,8 @@ email: me@abhinavrai.com
 width: large
 
 # if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
+paginate: 5
+paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
 projects: true
@@ -95,8 +95,8 @@ related: true
 # Display links for next and previous posts for the specified categories
 post-advance-links: [blog]
 
-# show author block at the end of a post ?
-show-author: false
+# show author block at the end of a post 
+show-author: true
 
 # do you want some animations?
 animation: true
@@ -107,6 +107,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-admin
+  - jekyll-paginate
 
 jekyll-mentions:
     base_url: https://abhinavrai.com
