@@ -1,6 +1,6 @@
 # main text of home
 name: Abhinav Rai
-bio: Serial Entrepreneur <br> Ex Product Engineer @ Gojek | Travel ⛰️| Music 🎵 | Startups🏁<br> <br>Love to solve problems, sing, play guitar and explore the world. Talk with me about new ideas, life and philosophies" 
+bio: Serial Entrepreneur <br> Building Influencerbit| Travel ⛰️| Music 🎵 | Startups🏁<br> <br>Love to solve problems, sing, play guitar and explore the world. Talk with me about new ideas, life and philosophies" 
 
 # twitter summary info
 description: A blog about technology and philosophies
@@ -33,10 +33,10 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: theabhinavrai
+# facebook: theabhinavrai
 twitter: imabhinavrai
 # google: mygoogle
-instagram: abhnv_rai
+# instagram: abhnv_rai
 # pinterest: mypinterest
 linkedin: abhinav-rai-24a803a3
 # youtube: myyoutube
