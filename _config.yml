@@ -1,6 +1,6 @@
 # main text of home
 name: Abhinav Rai
-bio: Serial Entrepreneur <br> Building Influencerbit| Travel ⛰️| Music 🎵 | Startups🏁<br> <br>Love to solve problems, sing, play guitar and explore the world. Talk with me about new ideas, life and philosophies" 
+bio: Serial Entrepreneur <br> Building Influencerbit | Travel ⛰️| Music 🎵 | Startups🏁<br> <br>Love to solve problems, sing, play guitar and explore the world. Talk with me about new ideas, life and philosophies" 
 
 # twitter summary info
 description: A blog about technology and philosophies
@@ -8,7 +8,7 @@ description: A blog about technology and philosophies
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/profile_1.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
